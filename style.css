@@ -1,0 +1,150 @@
+html {
+    display: block;
+    background-image: url("bgImg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 400px;
+    margin: 10vh auto 0 auto;
+    background-color: white;
+
+    box: 0px 0px 43px 17px; /*rgba(153,153,153,1);*/
+}
+
+#display {
+    text-align: right;
+    height: 70px;
+    border-top: 1px white solid;
+    background-color: white;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: grid;
+    /*border-bottom: 1px solid #999;
+    border-left: 1px solid#999;*/
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > div {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.button {
+    border: -0.5px solid #999;
+    line-height: 95px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#c {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#CE {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#mod {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#division {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#multiplication {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#subtraction {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#addition {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#equal {
+    background-color:  rgb(42 120 115);
+    color: black;
+}
+
+#one {
+    background-color: #e9e7e7;
+    color: black;
+}
+
+#two {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#three {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#four {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#five {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#six {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#seven {
+    background-color: #e9e7e7;
+    color: black;
+}
+
+#eight {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#nine {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#openbrace {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#closebrace {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+#zero {
+    background-color:  #e9e7e7;
+    color: black;
+}
+
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
